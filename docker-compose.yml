@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+
+    slim:
+        image: php:7-alpine
+        container_name: api-linx-challenge
+        depends_on:
+            - composer
+        working_dir: /var/www
+        command: php -S 0.0.0.0:8080 -t public
+        environment:
+            docker: "true"
+        ports:
+            - 80:8080
+        volumes:
+            - .:/var/www
+
+    composer:
+        image: composer/composer:php7
+        container_name: composer
+        working_dir: /var/www
+        command: install
+        volumes:
+            - .:/var/www
