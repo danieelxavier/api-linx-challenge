@@ -14,7 +14,7 @@ comentários e os autores dos comentários.
 - POST http://localhost/posts - Cria um novo post, com seu autor. Um novo autor deve ser 
 inserido, se esse não existir.
 
-### Exxecutando a API
+### Executando a API
 
 Para executar a API, é necessário ter instalado na máquina:
 - [<strong>Git</strong>](https://git-scm.com/) - necessário para fazer o download do código;
@@ -50,7 +50,7 @@ na sua máquina, não tenha nenhum outro serviço utilizando a porta 80, como la
 usuários, não sendo possível inserir o objeto de author no objetos de comentários.
 
 
-#### Desafio Bônus
+### Desafio Bônus
 
 - Descreva a infra e como sua API deveria ser colocada em produção.
 
