@@ -44,13 +44,13 @@ aparece a mensagem ``composer exited with code 0``.
 na sua máquina, não tenha nenhum outro serviço utilizando a porta 80, como lamp, apache, etc.
 
 
-####Observações
+#### Observações
 
 - Os objetos de comentários dos posts obtidos pelo JSON Place holder não possuem referências para
 usuários, não sendo possível inserir o objeto de author no objetos de comentários.
 
 
-####Desafio Bônus
+#### Desafio Bônus
 
 - Descreva a infra e como sua API deveria ser colocada em produção.
 
